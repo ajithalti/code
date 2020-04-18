@@ -1,0 +1,67 @@
+#y{
+    background-color:silver;
+    text-align:center;
+    color:purple;
+}
+
+marquee
+{
+    text-align:center;
+    color:red;
+}
+#a
+{
+    background-color:pink;
+    border:0px;
+    border-radius:90px;
+}
+#b
+{
+    margin:8px;
+}
+#d
+{   
+    border-radius:40px;
+
+    text-align:left;
+}
+a{
+    color:purple;
+    text-decoration:none;
+}
+a:hover,#mb:hover,#but:hover
+{
+    background-color:lightgreen;
+    text-decoration:none;
+}
+font,#tag
+{
+    color:purple;
+}
+img
+{
+    height:20px;
+    width:20px;
+}
+input
+{
+    color:purple;
+    font-size:12px;
+    text-align:center;
+    background-color:pink;
+    border-radius:9px;
+    border-color:skyblue;
+}
+
+#p
+{
+    background-color:green;
+    
+}
+#ml,#mb,#dset, #but, #sbut
+{    
+    border-radius:10px;
+    border:0px;
+    background-color:pink;
+    text-align:left;
+}
