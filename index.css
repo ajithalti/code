@@ -1,0 +1,241 @@
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+
+
+
+.dark-mode
+{
+    background-color:black;
+    color:white;
+}
+
+body{
+    background-color:silver;
+    text-align:center;
+}
+
+marquee
+{
+    text-align:center;
+    color:red;
+}
+#a
+{
+    background-color:pink;
+    border:0px;
+
+}
+#b
+{
+    margin:8px;
+}
+#d
+{   
+
+    text-align:left;
+}
+#ds,#ml,#dset
+{
+    display:none;
+}
+a{
+    color:purple;
+    text-decoration:none;
+}
+a:hover,#mb:hover,#but:hover
+{
+    background-color:lightgreen;
+    text-decoration:none;
+}
+font,#tag
+{
+    color:purple;
+}
+img
+{
+    height:20px;
+    width:20px;
+}
+input
+{
+    color:purple;
+    font-size:12px;
+    text-align:center;
+    background-color:pink;
+    border-radius:9px;
+    border-color:skyblue;
+}
+
+#p
+{
+    background-color:green;
+    
+}
+#ml,#mb,#dset, #but, #sbut
+{    
+    border-radius:10px;
+    border:0px;
+    background-color:pink;
+    text-align:left;
+}
+#load
+{
+    display:none;
+}
+#b1,#b2,#b3,#b4,#b4,#b5,#b6,#b7,#b8
+{
+    height:20px;
+    width:20px;
+    border-radius:50%;
+    position:fixed;
+    top:90%;
+    left:50%;
+    background-color:white;
+    
+}
+#b1
+{
+    background-color:red;
+    transform:translate(-140px,0);
+}
+#b2
+{
+    background-color:blue;
+    transform:translate(-100px,0);
+}
+#b3
+{
+    background-color:orange;
+    transform:translate(-60px,0);
+}
+#b4
+{
+    background-color:purple;
+    transform:translate(-20px,0);
+}
+#b5
+{
+    background-color:pink;
+    transform:translate(20px,0);
+}
+#b6
+{
+    background-color:silver;
+    transform:translate(60px,0);
+}
+#b7
+{
+    background-color:gold;
+    transform:translate(100px,0);
+}
+#b8
+{
+    background-color:green;
+    transform:translate(140px,0);
+}
+textarea
+{
+    width:70%;
+    background-color:pink;
+    color:purple;
+    text-align:center;
+    border-radius:20%;
+}
+
+
+#loadcb
+{
+    top:50%;
+    left:50%;
+    position:fixed;
+     background-color:rgba(0,0,0,0.5);
+    display:none;
+}
+#c1,#c2,#c3,#c4,#c5,#c6,#c7,#c8
+{
+    
+    border-radius:50%;
+    
+    position:fixed;
+    
+    
+    
+}
+#c1
+{
+    transform:translate(-40px,0);
+    animation:l1;
+    animation-delay:0s;
+    animation-duration:.2s;
+}
+#c2
+{
+    transform:translate(-25px,-25px);
+    animation:l2;
+    animation-delay:.2s;
+    animation-duration:.2s;
+}
+#c3
+{
+    transform:translate(0px,-37px);
+    animation:l3;
+    animation-delay:.4s;
+    animation-duration:.2s;
+}
+#c4
+{
+    transform:translate(25px,-25px);
+    animation:l4;
+    animation-delay:.6s;
+    animation-duration:.2s;
+}
+#c5
+{
+    transform:translate(37px,0px);
+    animation:l5;
+    animation-delay:.8s;
+    animation-duration:.2s;
+}
+#c6
+{
+    transform:translate(25px,25px);
+    animation:l6;
+    animation-delay:1s;
+    animation-duration:.2s;
+}
+#c7
+{
+    transform:translate(0px,37px);
+    animation:l7;
+    animation-delay:1.2s;
+    animation-duration:.2s;
+}
+#c8
+{
+    transform:translate(-25px,25px);
+    animation:l8;
+    animation-delay:1.4s;
+    animation-duration:.2s;
+}
+
+
