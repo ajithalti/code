@@ -6,7 +6,7 @@ var connection = mysql.createConnection({
   database : 'altiwap',
 	port:'3306'
 });
-
+let express=require('express');
 connection.connect();
 
 connection.query('SELECT 1 + 1 AS solution', function (error, results, fields) {
@@ -15,3 +15,8 @@ connection.query('SELECT 1 + 1 AS solution', function (error, results, fields) {
 });
 
 connection.end();
+let app=express();
+app.get('/',(req,res)=>{
+	res.send("Hello");
+});
+app.listen(8080);
