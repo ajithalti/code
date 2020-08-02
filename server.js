@@ -20,7 +20,8 @@ let app=express();
 app.get('/',(req,res)=>{
 	res.send("Hello");
 });
-
+/*
 app.get('/', function(req, res) {
     res.sendFile(path.join(__dirname + '/index.html'));
 });
+*/
