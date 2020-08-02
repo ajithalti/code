@@ -6,6 +6,7 @@ var connection = mysql.createConnection({
   database : 'altiwap',
 	port:'3306'
 });
+lat path=require('path');
 let express=require('express');
 connection.connect();
 
@@ -18,5 +19,9 @@ connection.end();
 let app=express();
 app.get('/',(req,res)=>{
 	res.send("Hello");
+});
+
+app.get('/', function(req, res) {
+    res.sendFile(path.join(__dirname + '/index.html'));
 });
 app.listen(8080);
