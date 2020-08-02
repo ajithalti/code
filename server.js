@@ -6,7 +6,7 @@ var connection = mysql.createConnection({
   database : 'altiwap',
 	port:'3306'
 });
-lat path=require('path');
+let path=require('path');
 let express=require('express');
 connection.connect();
 
